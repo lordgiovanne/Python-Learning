@@ -6,4 +6,5 @@
   
   Bibliografia:
   [learnpython.org](http://www.learnpython.org/)
+  [wikibooks.org](https://pt.wikibooks.org/wiki/Python/Conceitos_b%C3%A1sicos/Coment%C3%A1rios_e_docstrings)
   
