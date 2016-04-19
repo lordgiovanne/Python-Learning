@@ -5,5 +5,5 @@
   Com a intenção de repassar os conhecimentos adquiridos ao longo desse desenvolvimento, criei esta série de tutoriais em código para uma maior interação entre teoria e prática passiva aos leitores.
   
   Bibliografia:
-  'learnpython.org'
+  [learnpython.org](http://www.learnpython.org/)
   
