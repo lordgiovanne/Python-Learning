@@ -19,5 +19,19 @@ e="nao ' preciso ' mais ' me ' preocupar ' com ' apostrofes ' mal ' interpretado
 #devem estar de acordo, respectivamente, com suas chamadas. Por ex:
 
 inteiro1, inteiro2 = 1,2
-string1, string2 = "olar", "tchau"
 fracionario1, fracionario2 = float(1), 2.0
+string1, string2 = "olar", "tchau"
+
+#   Vamos verificar os valores atribuidos a cada variavel:
+
+print "inteiro1 vale: %d" % inteiro1
+print "inteiro2 vale: %d" % inteiro2
+print "fracionario1 vale: %.1f" % fracionario1
+print "fracionario2 vale: %.1f" % fracionario2
+print "string1 contem: %s" % string1
+print "string2 contem: %s" % string2
+
+#   Para testar esse codigo, os posteriores e caso queira desenvolver e testar os proprios codigos, voce pode entrar no site 
+#"http://learnpython.org/" digitar o código na code window e clickar em "run"
+
+#Proximo asssunto: operadores
