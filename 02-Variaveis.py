@@ -10,7 +10,7 @@ c=float(7)  #tambem podemos atribuir o tipo fracionario dessa maneira!
 
 #   Strings sao conjuntos de caracteres e para atribuir o tipo string a uma variavel basta escrever o string desejado entre aspas
 #duplas ou simples. No caso de atribuir com aspas simples, tome cuidado para nao utilizar apostrofes dentro da string. Ou, por
-# padrão, atribua strings sempre usando aspas duplas e evite qualquer problema. Por ex:
+# padrao, atribua strings sempre usando aspas duplas e evite qualquer problema. Por ex:
 
 d='nao posso usar apostrofes'
 e="nao ' preciso ' mais ' me ' preocupar ' com ' apostrofes ' mal ' interpretados"
