@@ -19,7 +19,7 @@
 #Esta serve para mostrar na tela o que o programador desejar.
 #   Em python, a impressao e muito simples. Para nos, que estamos comecando, vamos imprimir
 #apenas strings (conjunto de caracteres). Basta seguir o modelo:
-  print "Conteudo a ser impresso."
+print "Conteudo a ser impresso."
 #   E importante observar que e incluido automaticamente o caractere fim-de-linha ao usar
 #o print.
 
