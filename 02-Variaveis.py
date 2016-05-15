@@ -32,6 +32,6 @@ print "string1 contem: %s" % string1
 print "string2 contem: %s" % string2
 
 #   Para testar esse codigo, os posteriores e caso queira desenvolver e testar os proprios codigos, voce pode entrar no site 
-#"http://learnpython.org/" digitar o código na code window e clickar em "run"
+#"http://learnpython.org/" digitar o codigo na code window e clickar em "run"
 
 #Proximo asssunto: listas
