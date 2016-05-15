@@ -1,9 +1,9 @@
 #   Operadores sao simbolos que promovem uma operacao. Na primeira parte deste tutorial iremos ver operadores com numeros.
 
 #   Operadores aritmeticos:
-#As operacoes basicas com numeros em python sao a soma (+), a subtracao (-), a multiplicacao (*), a divisao (/ ou //)¹, o
+#As operacoes basicas com numeros em python sao a soma (+), a subtracao (-), a multiplicacao (*), a divisao (/ ou //)(1), o
 #modulo (%) e a potencia (**). 
-#¹-A divisao com barra simples gera um resultado da divisao comum, por exemplo: 3.0/4.0=0.75. Porem,  quando os valores sao 
+#(1)-A divisao com barra simples gera um resultado da divisao comum, por exemplo: 3.0/4.0=0.75. Porem,  quando os valores sao 
 #todos inteiros, a barra simples executa a divisao inteira, ou seja: 3/4=0. A barra dupla e usada para se obter a divisao
 #inteira independentemente dos tipos dos numeros operados, por exemplo: 3.0//4.0=0.
 
