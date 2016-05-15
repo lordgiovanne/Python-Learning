@@ -4,7 +4,7 @@
 #"%s" - Listas no geral (lembrando que strings sao basicamente listas de caracteres) e numeros.
 #"%d" - Uma maneira mais adequada para numeros inteiros.
 #"%f" - Uma maneira mais adequada para numeros reais.
-#"%.yf - Onde y é um numero natural que representa o numero de casas apos a virgula que se deseja imprimir.
+#"%.yf - Onde y e um numero natural que representa o numero de casas apos a virgula que se deseja imprimir.
 #"%x ou %X - Imprime o numero desejado na base hexadecimal. (%x imprime as letras em minusculo)
 #Exemplos(note que quando se deseja imprimir o valor contido em mais de uma variavel utiliza-se a notacao "% (var1, var2,...,varN)"
 
