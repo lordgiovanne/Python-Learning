@@ -28,9 +28,15 @@ print "%s" %WtH         #imprime o valor armazenado na string, ou seja, "What th
 #Pode-se inverter uma string inteira utilizando a sintaxe ("nome_da_string[::-1]")
 print texto[::-1]       #imprime a string texto de tras para frente, ou seja, "!dlroW olleH"
 
+#   Funcao que retorna a string com os caracteres todos em maiusculo ou minusculo ("nome_da_string.upper()") para maiusculo e 
+#("nome_da_string.lower()") para minusculo, perceba que nao sao utilizados parametros alem da propria string.
+print texto.upper()     #imprime a string texto com todos os caracteres em maiusculo, ou seja, "HELLO WORLD!"
+print texto.lower()     #imprime a string texto com todos os caracteres em minusculo, ou seja, "hello world!"
+concatenado = texto.upper() + " " + texto.lower()   #cria uma variavel string que armazena os valores retornados pelas funcoes
+#em questao separadas por espaco
+print "%s" %concatenado #imprime o valor contido na string concatenado, ou seja, "HELLO WORLD! hello world!"
 
-print texto.upper()
-print texto.lower()
+
 separar = texto.split(" ")
 print "%s" % separar
 #comentar e explicar
