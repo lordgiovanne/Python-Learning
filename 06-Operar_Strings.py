@@ -1,3 +1,6 @@
+#   Na primeira licao vimos um pouco sobre strings e a funcao print, dessa vez iremos ver outras funcoes que servem para manejar
+#as informacoes armazenadas em strings.
+
 #Primeiro definimos uma string para trabalharmos e a armazenamos na variavel texto
 texto = "Hello World!"
 
@@ -46,7 +49,7 @@ print WtH.endswith("World!")            #imprime o valor logico retornado pela c
 #Por exemplo, a linha a seguir proporciona um erro de sintaxe, comente-a para testar o codigo.
 valores = texto.startswith("Hello") + " and " + WtH.endswith("World!")   #Nao faz sentido a operacao de soma
 
-
-separar = texto.split(" ")
-print "%s" % separar
-#comentar e explicar
+#   Funcao que retorna uma lista com strings separadas pela "substring" utilizada como argumento na funcao 
+#(nome_da_string.split("substring")):
+separar = texto.split(" ")              #armazena uma lista com as strings "Hello"(indice 0) e "World!"(indice 1)
+print "%s" % separar[1]                 #imprime o valor contido no segundo item da lista, ou seja, "World!"
