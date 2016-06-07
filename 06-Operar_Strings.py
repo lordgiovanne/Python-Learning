@@ -17,9 +17,18 @@ print texto.count("l")  #imprime o numero de vezes que o caractere l aparece em 
 divisao = texto.count("l")/2.0            #cria a variave real chamada divisao e armazena o valor 3/2.0=1.5
 print "%.1f" %divisao   #imprime o valor real armazenado em divisao com uma casa decimal, ou seja, 1.5
 
+#   Funcao que retorna um conjunto de caracteres selecionados a partir da string inicial. A chamada e feita na sintaxe 
+#("nome_da_string[start:stop:step]"), de forma que os caracteres retornados sao aqueles que possuirem indice entre start-1 e stop
+#e satisfizerem a relacao indice=start+k*step, onde k assume todos os naturais. 
+print texto[0:4:1]      #imprime todos os caracteres cujo indice esta entre -1 e 4 e satisfaz indice=0+k*1, ou seja, os indices 
+#0,1,2 e 3 e a funcao print imprime "Hell"
+print texto[0:4]        #quando o step vale 1, pode nao escreve-lo, deixando-o subentendido, dessa forma sera impresso "Hell"
+WtH = "What the " + texto[0:4] + "?"    #cria uma string chamada WtH e armazena "What the Hell?" nela
+print "%s" %WtH         #imprime o valor armazenado na string, ou seja, "What the Hell?"
+#Pode-se inverter uma string inteira utilizando a sintaxe ("nome_da_string[::-1]")
+print texto[::-1]       #imprime a string texto de tras para frente, ou seja, "!dlroW olleH"
 
-print texto[0:4]
-print texto[::-1]
+
 print texto.upper()
 print texto.lower()
 separar = texto.split(" ")
