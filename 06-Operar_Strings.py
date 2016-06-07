@@ -36,6 +36,16 @@ concatenado = texto.upper() + " " + texto.lower()   #cria uma variavel string qu
 #em questao separadas por espaco
 print "%s" %concatenado #imprime o valor contido na string concatenado, ou seja, "HELLO WORLD! hello world!"
 
+#   Funcao que retorna um valor logico relacionado a comparacao da string e uma "substring" pelo inicio ou pelo fim. Se a comparacao
+#indicar que a string de comparacao e a de argumento forem iguais, a funcao retorna "True" e caso nao forem iguais retorna "False". 
+#A sintaxe a ser utilizada e ("nome_da_string.startswith("substring")") para comparar a substring com o comeco da string e para o 
+#termino utiliza-se ("nome_da_string.endswith("substring")").
+print texto.startswith("Hello")         #imprime o valor logico retornado pela comparacao, ou seja, "True"
+print WtH.endswith("World!")            #imprime o valor logico retornado pela comparacao, ou seja, "False"
+#Note que a valor retornado e um valor logico e nao uma string, portanto nao se pode fazer operacoes de strings nesses valores
+#Por exemplo, a linha a seguir proporciona um erro de sintaxe, comente-a para testar o codigo.
+valores = texto.startswith("Hello") + " and " + WtH.endswith("World!")   #Nao faz sentido a operacao de soma
+
 
 separar = texto.split(" ")
 print "%s" % separar
