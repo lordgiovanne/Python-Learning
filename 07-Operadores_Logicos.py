@@ -20,4 +20,15 @@ print batman == 10 and robin != 0   #imprime "False", ja que a primeira parte da
 print batman == 10 or robin != 0    #imprime "True", ja que a primeira parte da expressao retorna True e a segunda False
 #Para entender melhor os valores logicos retornados estude "logica booleana".
 
-#   
+#   Comandos condicionais sao provavelmente o principio mais elementar e utilizado na programacao. Veremos, por enquanto os comandos:
+#caso(if <condicao>:), senao caso(elif <condicao>:) e senao(else <nada>:). Esses comandos condicionais exigem uma identacao adequada,
+#quando o valor logico retornado pela expressao condicional e True, os comandos no bloco abaixo sao executados e quando e False nao 
+#sao (um bloco e definido pela sua identacao).
+if batman > 8:          #os comandos no bloco abaixo sao exetados, ja que a expressao retorna "True"
+  print "batman contem um valor maior do que oito"    #executa
+if robin != 0:          #os comandos no bloco abaixo nao sao executados, ja que a expressao retorna "False"
+  print "robin contem um valor diferene de zero"      #nao executa
+elif  batman >= 10:     #os comandos no bloco abaixo sao exetados, ja que a expressao retorna "True"
+  print "batman contem um valor maior ou igual a dez" #executa
+else        #os comandos no bloco nao sao executados, pois a condicao do if referente a este else retorna "True"
+  print "batman contem um valor menor que dez"
