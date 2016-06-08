@@ -53,3 +53,5 @@ valores = texto.startswith("Hello") + " and " + WtH.endswith("World!")   #Nao fa
 #(nome_da_string.split("substring")):
 separar = texto.split(" ")              #armazena uma lista com as strings "Hello"(indice 0) e "World!"(indice 1)
 print "%s" % separar[1]                 #imprime o valor contido no segundo item da lista, ou seja, "World!"
+
+#Proximo assunto: Operadores logicos e condicionais.
