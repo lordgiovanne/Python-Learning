@@ -16,7 +16,11 @@ class  heroi:                   #aqui damos o nome "heroi" a classe
   
   def salvar(self, heroi):      #aqui definimos o metodo "salvar" da classe heroi
     if self.vida == "seguro":   #aqui verificamos se a vida do objeto que utiliza o metodo e "seguro"
-      heroi.vida = "seguro"     #caso sim, o heroi passado como parametro tem a vida alterada para "seguro"
+      if heroi.vida == "perigo":  #aqui verificamos se o heroi a ser salvo esta em perigo
+        heroi.vida = "seguro"     #caso sim, o heroi passado como parametro tem a vida alterada para "seguro"
+        print "Salvamento efetuado com sucesso"     #imprimimos uma mensagem de sucesso
+    else :                      #caso o primeiro if nao seja verificado como true
+      print "Nao foi possivel efetuar o salvamento" #imprimimos uma mensagem de falha
 #   Agora que ja definimos a classe heroi, vamos criar nossos objetos e atribuir os atributos deles.
 thor = heroi()                  #aqui criamos o objeto "thor"
 batman = heroi()                #aqui criamos o objeto "batman"
