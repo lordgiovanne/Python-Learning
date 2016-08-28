@@ -28,4 +28,14 @@ blackwidow = heroi()            #aqui criamos o objeto "blackwidow"
 thor.superpoderes = ["forca", "voo", "raio"]   #aqui incluimos "forca", "voo" e "raio" aos poderes de thor
 batman.superpoderes = "preparo"   #aqui incluimos "preparo" aos poderes de batman
 thor.vida = "perigo"            #aqui alteramos o atributo vida de thor para "perigo"
-#O assunto continua no proximo tutorial...
+#   Agora que temos nossos herois criados e com seus atributos definidos, vamos testar algumas possibilidades que temos para mecher
+#com eles:
+blackwidow.salvar(thor)     #Como blackwidow por padrao tem vida seguro e thor tem vida em perigo porque alteramos,
+#as condicoes para o salvamento sao suficientes, logo deve ser impresso "Salvamento efetuado com sucesso".
+for x in xrange(0,3):       #Repetir o bloco para x=[0,1,2]
+  print "%s vence %s!" %(batman.superpoderes, thor.superpoderes[x])   #imprimir uma mensagem comparando poderes
+  #O laço for imprime:
+  #"preparo vence forca!"
+  #"preparo vence voo!"
+  #"preparo vence raio!"
+  #Orientacao a objetos continua no proximo tutorial...
