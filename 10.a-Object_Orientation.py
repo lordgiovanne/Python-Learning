@@ -25,9 +25,7 @@ class  heroi:                   #aqui damos o nome "heroi" a classe
 thor = heroi()                  #aqui criamos o objeto "thor"
 batman = heroi()                #aqui criamos o objeto "batman"
 blackwidow = heroi()            #aqui criamos o objeto "blackwidow"
-thor.superpoderes.append("forca")   #aqui incluimos "forca" aos poderes de thor
-thor.superpoderes.append("voo")     #aqui incluimos "voo" aos poderes de thor
-thor.superpoderes.append("raio")    #aqui incluimos "raio" aos poderes de thor
-batman.superpoderes.append("preparo")   #aqui incluimos "preparo aos poderes de batman"
+thor.superpoderes = ["forca", "voo", "raio"]   #aqui incluimos "forca", "voo" e "raio" aos poderes de thor
+batman.superpoderes = "preparo"   #aqui incluimos "preparo" aos poderes de batman
 thor.vida = "perigo"            #aqui alteramos o atributo vida de thor para "perigo"
 #O assunto continua no proximo tutorial...
