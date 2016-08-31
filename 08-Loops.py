@@ -40,3 +40,33 @@ for k in xrange(5):   #k assume os valores dentro da lista [0,1,2,3,4]
     break             #encerra o loop
 #Ou seja, k assume os valores 0,1,2 e 3 e imprime estes. Apos imprimir "3", o comando break e executado e o laco e encerrado sem 
 #que k assuma o valor 4.
+#   O continue serve para que a execucao do laco pule para o proximo valor da lista e geralmente e utilizado dentro de um comando
+#condicional tambem.
+for l in xrange(5):   #l assume os valores dentro da lista [0,1,2,3,4]
+  if l == 3:          #se o valor de l for igual a 3 executa o bloco abaixo
+    continue          #pula a execucao do resto do bloco do for e l assume o proximo valor na lista
+  print l             #imprime o valor contido em l
+#   Ou seja, l assume os valores 0,1,2,3 e 4. Porem imprime apenas 0,1,2 e 4, pois quando l assume o valor 3 o comando de impressao
+#e pulado pelo comando continue.
+#   Por ultimo, podemos utilizar, tambem, o comando "else" para um laco. Quando o else e utilizado, o bloco que ele contem e 
+#executado caso a condicao de execucao do laco de False. O bloco do else e executado mesmo que haja um comando continue no bloco
+#do laco, porem nao e executado caso o laco seja encerrado por um break.
+m=0               #declara o inteiro m que assume o valor 0
+while m < 5:      #enquanto m for menor que 5 executa o bloco abaixo
+  if m == 4:      #se m for igual a 4 executa o bloco abaixo
+    m=m+1         #soma 1 no valor de m
+    continue      #continua para a proxima execucao do laco
+  print m         #imprime o valor contido em 
+  m=m+1           #soma 1 no valor de m
+else:             #caso a condicao do while assuma o valor False o bloco abaixo e executado
+  print "A condicao do laco assumiu o valor logico 'False'!"    #imprime a string entre aspas
+#Durante a execucao desse laco, sao impressos "0", "1", "2" e "3" e a string acima.
+while m > 0:      #enquanto m for maior que 0 executa o bloco abaixo
+  if m == 3:      #caso m assuma o valor 3 executa o bloco abaixo
+    break         #encerra o laco
+  print m         #imprime o valor contido em m
+  m=m-1           #diminui 1 no valor de m
+else:             #caso a condicao do while assuma o valor False o bloco abaixo e executado
+  print "Xablaw"  #imprime a string "Xablaw"
+#durante a execucao desse laco, sao impressos "5" e "4". Quando m assume o valor 3 o laco e encerrado e o bloco do else tambem
+#nao e executado.
